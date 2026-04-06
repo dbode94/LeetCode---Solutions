@@ -1,0 +1,8 @@
+{
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.extraPaths": [],
+    "python.defaultInterpreterPath": "./.venv",
+    "editor.formatOnSave": true,
+    "python.linting.enabled": true
+}
