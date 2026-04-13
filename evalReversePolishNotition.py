@@ -21,7 +21,7 @@ def evalRPN(tokens):
             elif value == "*":
                 num_stack.append(num1 * num2)
             else:
-                num_stack.append(int(num1 / num2))
+                num_stack.append(int(num1 / float(num2)))
 
     return num_stack[0]
 
