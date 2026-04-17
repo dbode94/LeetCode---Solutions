@@ -4,4 +4,12 @@
 # print(stack.pop())
 
 
-print(int("3+5"))
+mySet = {'A', 'B', 'C'}
+
+s = ''
+
+if not len(s):
+    print('Worked')
+
+for value in mySet:
+    print(value)
